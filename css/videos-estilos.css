@@ -1,4 +1,4 @@
-/* Estilos generales */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   background-color: #fff;
 }
 
-/* Encabezado */
+
 header {
   position: fixed;
   top: 0;
@@ -29,7 +29,6 @@ h1 {
   margin-bottom: 5px;
 }
 
-/* Navegación */
 nav {
   display: flex;
   justify-content: center;
@@ -55,9 +54,8 @@ nav a i {
   font-size: 1.3em;
 }
 
-/* Actualización del ícono de BLOG */
 nav a.blog i::before {
-  content: "\f27a"; /* Font Awesome código para el nuevo ícono de RSS */
+  content: "\f27a"; 
 }
 
 nav a:hover,
@@ -74,7 +72,6 @@ nav a.active i {
   color: cornflowerblue;
 }
 
-/* Sección principal */
 section {
   max-width: 800px;
   margin: 40px auto;
@@ -87,7 +84,6 @@ h2 {
   font-size: 1.5em;
 }
 
-/* Contenedor de video responsivo */
 .video-container {
   position: relative;
   padding-bottom: 56.25%;
@@ -105,7 +101,6 @@ h2 {
   height: 100%;
 }
 
-/* Pie de página */
 .footer {
   margin: 40px 0;
 }
