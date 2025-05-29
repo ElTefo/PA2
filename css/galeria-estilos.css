@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 2.5em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav a i {
+  color: #6495ED;
+  margin-right: 5px;
+}
+
+.nav a.active {
+  border-bottom: 2px solid #6495ED;
+}
+
+.gallery-content {
+  max-width: 1100px;
+  margin: 140px auto 50px;
+  padding: 0 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.img-box {
+  text-align: center;
+  width: 300px;
+}
+
+.img-box img {
+  width: 100%;
+  border-radius: 5px;
+  transition: filter 0.3s ease;
+  filter: grayscale(100%);
+}
+
+.img-box img:hover {
+  filter: grayscale(0%);
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  color: #000;
+  margin: 0 10px;
+  font-size: 1.3em;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #c28c3b;
+}

@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px 0 10px;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000;
+  text-align: center;
+}
+
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 2.5em;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav a i {
+  color: #6495ED;
+  margin-right: 5px;
+}
+
+.content {
+  max-width: 800px;
+  margin: 140px auto 40px;
+  padding: 0 20px;
+}
+
+.main-image {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.8em;
+  margin-bottom: 15px;
+}
+
+.intro {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  width: 70%;
+}
+
+.author {
+  text-align: center;
+}
+
+.author-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.post-body {
+  text-align: justify;
+  margin-top: 10px;
+}
+
+.coffee-icon {
+  width: 70px;
+  float: left;
+  margin: 0 15px 10px 0;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.footer .social-icons {
+  margin-top: 10px;
+}
+
+.footer .social-icons a {
+  color: #000;
+  margin: 0 10px;
+  font-size: 1.3em;
+  transition: color 0.3s;
+}
+
+.footer .social-icons a:hover {
+  color: #c28c3b;
+}
